@@ -174,7 +174,7 @@ This is the most architecturally interesting part. The kmesh-daemon's debug API 
 ```typescript
 import { ApiProxy } from '@kinvolk/headlamp-plugin/lib';
 
-async function fetchBpfMaps(nodeName: string, podName: string) {
+async function fetchBpfMaps(podName: string) {
   // Route through K8s pod proxy to reach the daemon's admin port
   const response = await ApiProxy.request(
     `/api/v1/namespaces/kmesh-system/pods/${podName}:15200/proxy/debug/config_dump/bpf/`
