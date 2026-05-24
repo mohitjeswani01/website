@@ -3,7 +3,7 @@ title: "Designing a Headlamp Plugin for Kmesh: Architecture, Implementation, and
 authors:
   - mohitjeswani01
 date: 2026-05-24
-tags: [headlamp, plugin, observability, LFX-2025]
+tags: [headlamp, plugin, observability, LFX-2026]
 ---
 
 ## Introduction
